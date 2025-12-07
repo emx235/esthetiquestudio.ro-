@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Pagina principală -->
+  <url>
+    <loc>https://esthetiquestudio.ro/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Variante principale de pagini -->
+  <url>
+    <loc>https://esthetiquestudio.ro/index.php</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://esthetiquestudio.ro/despre-noi.php</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Servicii -->
+  <url>
+    <loc>https://esthetiquestudio.ro/epilare-zahar.php</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://esthetiquestudio.ro/epilare-ceara.php</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://esthetiquestudio.ro/cosmetica.php</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://esthetiquestudio.ro/epilare-laser.php</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://esthetiquestudio.ro/epilare-laser-brasov.php</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Programare online -->
+  <url>
+    <loc>https://esthetiquestudio.ro/programare-online.php</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Cursuri -->
+  <url>
+    <loc>https://esthetiquestudio.ro/cursuri.php</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Pagini de contact -->
+  <url>
+    <loc>https://esthetiquestudio.ro/contact.php</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://esthetiquestudio.ro/contact-cosmetica.php</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://esthetiquestudio.ro/contact-laser.php</loc>
+    <priority>0.75</priority>
+  </url>
+
+</urlset>

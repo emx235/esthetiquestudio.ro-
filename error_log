@@ -1,0 +1,227 @@
+[25-Dec-2024 02:56:30 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "TITLE" in /home/rest2782/public_html/header.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/rest2782/public_html/header.php on line 9
+[27-Dec-2024 10:46:58 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "TITLE" in /home/rest2782/public_html/header.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/rest2782/public_html/header.php on line 9
+[28-Dec-2024 19:08:47 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "TITLE" in /home/rest2782/public_html/header.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/rest2782/public_html/header.php on line 9
+[29-Dec-2024 22:34:06 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "TITLE" in /home/rest2782/public_html/header.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/rest2782/public_html/header.php on line 9
+[30-Dec-2024 17:07:34 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "TITLE" in /home/rest2782/public_html/header.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/rest2782/public_html/header.php on line 9
+[25-May-2025 11:21:52 Europe/Bucharest] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rest2782/public_html/epilare-laser.php on line 6
+[26-May-2025 10:58:18 Europe/Bucharest] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rest2782/public_html/contact-laser.php on line 4
+[01-Sep-2025 11:50:36 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/index.php on line 119
+[01-Sep-2025 11:50:36 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/index.php on line 120
+[01-Sep-2025 11:50:39 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/index.php on line 119
+[01-Sep-2025 11:50:39 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/index.php on line 120
+[01-Sep-2025 11:50:43 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/index.php on line 119
+[01-Sep-2025 11:50:43 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/index.php on line 120
+[01-Sep-2025 11:51:09 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/index.php on line 119
+[01-Sep-2025 11:51:09 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/index.php on line 120
+[01-Sep-2025 11:51:18 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/index.php on line 119
+[01-Sep-2025 11:51:18 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/index.php on line 120
+[01-Sep-2025 11:51:44 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/index.php on line 119
+[01-Sep-2025 11:51:44 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/index.php on line 120
+[07-Oct-2025 09:24:15 Europe/Bucharest] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rest2782/public_html/epilare-laser-brasov.php on line 6
+[07-Oct-2025 09:24:19 Europe/Bucharest] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rest2782/public_html/epilare-laser-brasov.php on line 6
+[07-Oct-2025 09:24:26 Europe/Bucharest] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rest2782/public_html/epilare-laser-brasov.php on line 6
+[07-Oct-2025 09:25:01 Europe/Bucharest] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rest2782/public_html/epilare-laser-brasov.php on line 6
+[07-Oct-2025 09:25:02 Europe/Bucharest] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rest2782/public_html/epilare-laser-brasov.php on line 6
+[07-Oct-2025 09:25:06 Europe/Bucharest] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rest2782/public_html/epilare-laser-brasov.php on line 6
+[07-Oct-2025 09:25:37 Europe/Bucharest] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rest2782/public_html/epilare-laser-brasov.php on line 6
+[07-Oct-2025 09:26:17 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 7
+[07-Oct-2025 09:26:17 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 8
+[07-Oct-2025 09:26:49 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 7
+[07-Oct-2025 09:26:49 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 8
+[07-Oct-2025 10:27:56 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 7
+[07-Oct-2025 10:27:56 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 8
+[07-Oct-2025 10:27:56 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 15
+[07-Oct-2025 10:27:56 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 16
+[07-Oct-2025 10:27:56 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 17
+[09-Oct-2025 17:28:06 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 285
+[09-Oct-2025 17:28:06 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 286
+[09-Oct-2025 17:28:06 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 287
+[09-Oct-2025 17:28:06 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 288
+[09-Oct-2025 17:28:51 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 285
+[09-Oct-2025 17:28:51 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 286
+[09-Oct-2025 17:28:51 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 287
+[09-Oct-2025 17:28:51 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/epilare-laser-brasov.php on line 288
+[20-Nov-2025 13:18:58 Europe/Bucharest] PHP Parse error:  Unclosed '{' on line 35 in /home/rest2782/public_html/raport-vizite-epilare.php on line 37
+[20-Nov-2025 13:21:36 Europe/Bucharest] PHP Parse error:  Unclosed '{' on line 35 in /home/rest2782/public_html/raport-vizite-epilare.php on line 37
+[20-Nov-2025 13:21:38 Europe/Bucharest] PHP Parse error:  Unclosed '{' on line 35 in /home/rest2782/public_html/raport-vizite-epilare.php on line 37
+[21-Nov-2025 18:59:05 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/programare-online.php on line 15
+[21-Nov-2025 18:59:05 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/programare-online.php on line 16
+[21-Nov-2025 18:59:05 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/programare-online.php on line 17
+[21-Nov-2025 18:59:05 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/programare-online.php on line 18
+[21-Nov-2025 18:59:05 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 18:59:05 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 18:59:05 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 18:59:05 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:874
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(874): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:01:14 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/programare-online.php on line 15
+[21-Nov-2025 19:01:14 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/programare-online.php on line 16
+[21-Nov-2025 19:01:14 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/programare-online.php on line 17
+[21-Nov-2025 19:01:14 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/programare-online.php on line 18
+[21-Nov-2025 19:01:14 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:01:14 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:01:14 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:01:14 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:874
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(874): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:02:09 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/programare-online.php on line 15
+[21-Nov-2025 19:02:09 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/programare-online.php on line 16
+[21-Nov-2025 19:02:09 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/programare-online.php on line 17
+[21-Nov-2025 19:02:09 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/programare-online.php on line 18
+[21-Nov-2025 19:02:09 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:02:09 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:02:09 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:02:09 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:874
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(874): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:02:53 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/programare-online.php on line 15
+[21-Nov-2025 19:02:53 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/programare-online.php on line 16
+[21-Nov-2025 19:02:53 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/programare-online.php on line 17
+[21-Nov-2025 19:02:53 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/programare-online.php on line 18
+[21-Nov-2025 19:02:53 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:02:53 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:02:53 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:02:53 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:874
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(874): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:04:30 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/programare-online.php on line 15
+[21-Nov-2025 19:04:30 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/programare-online.php on line 16
+[21-Nov-2025 19:04:30 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/programare-online.php on line 17
+[21-Nov-2025 19:04:30 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/programare-online.php on line 18
+[21-Nov-2025 19:04:30 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:04:30 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:04:30 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:04:30 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:874
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(874): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:08:00 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/programare-online.php on line 29
+[21-Nov-2025 19:08:00 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/programare-online.php on line 30
+[21-Nov-2025 19:08:00 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/programare-online.php on line 31
+[21-Nov-2025 19:08:00 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/programare-online.php on line 32
+[21-Nov-2025 19:08:00 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:08:00 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:08:00 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 888
+[21-Nov-2025 19:08:00 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:888
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(888): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 888
+[21-Nov-2025 19:08:06 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/programare-online.php on line 29
+[21-Nov-2025 19:08:06 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/programare-online.php on line 30
+[21-Nov-2025 19:08:06 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/programare-online.php on line 31
+[21-Nov-2025 19:08:06 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/programare-online.php on line 32
+[21-Nov-2025 19:08:06 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:08:06 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:08:06 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 888
+[21-Nov-2025 19:08:06 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:888
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(888): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 888
+[21-Nov-2025 19:08:08 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/programare-online.php on line 29
+[21-Nov-2025 19:08:08 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/programare-online.php on line 30
+[21-Nov-2025 19:08:08 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/programare-online.php on line 31
+[21-Nov-2025 19:08:08 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/programare-online.php on line 32
+[21-Nov-2025 19:08:08 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:08:08 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:08:08 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 888
+[21-Nov-2025 19:08:08 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:888
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(888): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 888
+[21-Nov-2025 19:11:24 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 849
+[21-Nov-2025 19:11:24 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 849
+[21-Nov-2025 19:11:24 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 863
+[21-Nov-2025 19:11:24 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:863
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(863): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 863
+[21-Nov-2025 19:11:35 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 849
+[21-Nov-2025 19:11:35 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 849
+[21-Nov-2025 19:11:35 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 863
+[21-Nov-2025 19:11:35 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:863
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(863): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 863
+[21-Nov-2025 19:12:21 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 863
+[21-Nov-2025 19:12:21 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 863
+[21-Nov-2025 19:12:21 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 877
+[21-Nov-2025 19:12:21 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:877
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(877): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 877
+[21-Nov-2025 19:13:21 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 863
+[21-Nov-2025 19:13:21 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 863
+[21-Nov-2025 19:13:21 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 877
+[21-Nov-2025 19:13:21 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:877
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(877): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 877
+[21-Nov-2025 19:14:45 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 863
+[21-Nov-2025 19:14:45 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 863
+[21-Nov-2025 19:14:45 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 877
+[21-Nov-2025 19:14:45 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:877
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(877): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 877
+[21-Nov-2025 19:16:07 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/programare-online.php on line 15
+[21-Nov-2025 19:16:07 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/programare-online.php on line 16
+[21-Nov-2025 19:16:07 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/programare-online.php on line 17
+[21-Nov-2025 19:16:07 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/programare-online.php on line 18
+[21-Nov-2025 19:16:07 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:16:07 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:16:07 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:16:07 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:874
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(874): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:18:28 Europe/Bucharest] PHP Warning:  Constant TITLE already defined in /home/rest2782/public_html/programare-online.php on line 15
+[21-Nov-2025 19:18:28 Europe/Bucharest] PHP Warning:  Constant DESCRIPTION already defined in /home/rest2782/public_html/programare-online.php on line 16
+[21-Nov-2025 19:18:28 Europe/Bucharest] PHP Warning:  Constant PAGE_NOTICE already defined in /home/rest2782/public_html/programare-online.php on line 17
+[21-Nov-2025 19:18:28 Europe/Bucharest] PHP Warning:  Constant SITE_BRAND already defined in /home/rest2782/public_html/programare-online.php on line 18
+[21-Nov-2025 19:18:28 Europe/Bucharest] PHP Warning:  Undefined variable $laserServices in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:18:28 Europe/Bucharest] PHP Warning:  foreach() argument must be of type array|object, null given in /home/rest2782/public_html/programare-online.php on line 860
+[21-Nov-2025 19:18:28 Europe/Bucharest] PHP Warning:  Undefined variable $selected_services in /home/rest2782/public_html/programare-online.php on line 874
+[21-Nov-2025 19:18:28 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/rest2782/public_html/programare-online.php:874
+Stack trace:
+#0 /home/rest2782/public_html/programare-online.php(874): in_array()
+#1 {main}
+  thrown in /home/rest2782/public_html/programare-online.php on line 874
+[30-Nov-2025 16:58:13 Europe/Bucharest] PHP Parse error:  syntax error, unexpected identifier " " in /home/rest2782/public_html/programare-online.php on line 14
+[30-Nov-2025 16:59:19 Europe/Bucharest] PHP Parse error:  syntax error, unexpected identifier " " in /home/rest2782/public_html/programare-online.php on line 14
+[30-Nov-2025 17:00:35 Europe/Bucharest] PHP Parse error:  syntax error, unexpected identifier " " in /home/rest2782/public_html/programare-online.php on line 14
+[30-Nov-2025 17:00:45 Europe/Bucharest] PHP Parse error:  syntax error, unexpected identifier " " in /home/rest2782/public_html/programare-online.php on line 14
+[30-Nov-2025 17:00:47 Europe/Bucharest] PHP Parse error:  syntax error, unexpected identifier " " in /home/rest2782/public_html/programare-online.php on line 14
+[30-Nov-2025 17:01:37 Europe/Bucharest] PHP Parse error:  syntax error, unexpected identifier " " in /home/rest2782/public_html/programare-online.php on line 14

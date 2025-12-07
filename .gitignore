@@ -1,0 +1,15 @@
+# Configuri cu parole reale - NU le urcăm pe GitHub
+config.php
+config_local.php
+
+# Setări de editor / fișiere temporare
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# Alte directoare generate (dacă există)
+vendor/
+node_modules/
+
+
