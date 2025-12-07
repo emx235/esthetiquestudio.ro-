@@ -1,14 +1,9 @@
 <?php
-// Adăugăm doctype pentru a ne asigura că este o pagină HTML5 validă.
-// Presupunem că nu e inclus în header_minimal.php
-?>
-<!DOCTYPE html>
-<html lang="ro">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<?php
-// Pornim sesiunea înainte de orice output
+// [v2 Eniko 2025-12-07]
+// - session_start mutat înainte de orice output
+// - structură aliniată cu header_minimal.php (fără <!DOCTYPE html>, <html>, <head> aici)
+// - JSON-LD corectat (closes": "14:00")
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
@@ -36,7 +31,7 @@ $epilareViewCount = 0;
 if (file_exists($counterFile)) {
     $raw = trim(@file_get_contents($counterFile));
     if (is_numeric($raw)) {
-        $epilareViewCount = (int)$raw;
+        $epilareViewCount = (int) $raw;
     }
 }
 
@@ -44,7 +39,7 @@ if (file_exists($counterFile)) {
 if (empty($_SESSION['epilare_laser_brasov_counted'])) {
     $epilareViewCount++;
 
-    if (@file_put_contents($counterFile, (string)$epilareViewCount, LOCK_EX) !== false) {
+    if (@file_put_contents($counterFile, (string) $epilareViewCount, LOCK_EX) !== false) {
         $_SESSION['epilare_laser_brasov_counted'] = true;
 
         // adăugăm data curentă în log (o linie per sesiune)
@@ -52,9 +47,11 @@ if (empty($_SESSION['epilare_laser_brasov_counted'])) {
     }
 }
 
+// header_minimal.php ar trebui să genereze <!DOCTYPE html>, <html>, <head> cu meta + <body> + header
 include 'header_minimal.php';
 ?>
 
+<!-- Canvas galaxie ca fundal -->
 <canvas class="webgl"></canvas>
 
 <main id="epilare-laser-brasov" class="page-local container">
@@ -772,8 +769,18 @@ include 'header_minimal.php';
     "longitude": 25.000000
   },
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "20:00" },
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "10:00", "closes: "14:00" }
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "10:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday"],
+      "opens": "10:00",
+      "closes": "14:00"
+    }
   ],
   "sameAs": [
     "https://www.facebook.com/CONT",
