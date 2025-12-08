@@ -539,10 +539,10 @@ $EPILARE_LASER_PRICES = [
         'unit'        => 'lei / ședință (pachet)',
     ],
 
-    'pachet_barbati_sedinte_spate_total_axile_pectorali' => [
+    'pachet_barbati_sedinte_spate_total_axile_pectoral' => [
         'section'     => 'pachete_barbati_sedinte',
-        'label_table' => 'Spate total + Axile + Pectorali',
-        'label_form'  => 'Pachet Bărbați – Spate total + Axile + Pectorali',
+        'label_table' => 'Spate total + Axile + Pectoral',
+        'label_form'  => 'Pachet Bărbați – Spate total + Axile + Pectoral',
         'old'         => 1050,
         'new'         => 900,
         'unit'        => 'lei / ședință (pachet)',
