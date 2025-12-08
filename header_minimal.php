@@ -1,6 +1,6 @@
 <?php
 /* -----------------------------------------------------------
-   header_minimal.php — header simplificat (Beauty Side)
+   header_minimal.php — header simplificat (Beauty Side) [v2 Eniko 2025-12-08]
    - Logo cu fallback
    - Banner “Pagina în construcție” dacă PAGE_NOTICE e setat
    - Buton „Acasă”
@@ -10,10 +10,12 @@
            text: „Întoarcere la pagina anterioară”
            link: pagina de unde a venit utilizatorul (dacă e internă)
                  altfel fallback: /epilare-laser-brasov.php
+   - Adăugat: canonical + og:url pentru SEO
+   - IMPORTANT: aici NU mai închidem </body></html>; se închid în pagină / footer.
    ----------------------------------------------------------- */
 
 // Detectăm pagina curentă (ex: "programare-online.php")
-$current_path   = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$current_path   = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
 $current_script = basename($current_path);
 $is_programare_online = ($current_script === 'programare-online.php');
 
@@ -26,7 +28,7 @@ if ($is_programare_online) {
         $refParts = parse_url($ref);
 
         // Host curent (fără port)
-        $currentHost = $_SERVER['HTTP_HOST'];
+        $currentHost = $_SERVER['HTTP_HOST'] ?? 'www.esthetiquestudio.ro';
         if (strpos($currentHost, ':') !== false) {
             $currentHost = explode(':', $currentHost)[0];
         }
@@ -47,7 +49,7 @@ if ($is_programare_online) {
         }
 
         if ($isInternal && !empty($refParts['path'])) {
-            $refPath = $refParts['path'];
+            $refPath  = $refParts['path'];
             $refQuery = isset($refParts['query']) ? ('?' . $refParts['query']) : '';
 
             // Evităm bucla către aceeași pagină
@@ -57,6 +59,14 @@ if ($is_programare_online) {
         }
     }
 }
+
+// URL canonic pentru pagina curentă (fără query)
+$scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+$host   = $_SERVER['HTTP_HOST'] ?? 'www.esthetiquestudio.ro';
+$canonicalUrl = $scheme . '://' . $host . $current_path;
+
+// Imagine OG (fallback general; poți schimba cu una reală la nevoie)
+$ogImage = 'https://www.esthetiquestudio.ro/images/og-esthetiquestudio.jpg';
 ?>
 <!DOCTYPE html>
 <html lang="ro">
@@ -69,6 +79,10 @@ if ($is_programare_online) {
   <?php endif; ?>
   <meta name="theme-color" content="#111111">
 
+  <!-- Canonical & OG URL -->
+  <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
+  <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
+
   <!-- Google Search Console -->
   <meta name="google-site-verification" content="rBxdu62phoUcOxshs0OLKJ2vsBAj23P3F4LNWG6Ne7A" />
 
@@ -79,9 +93,9 @@ if ($is_programare_online) {
     <meta property="og:description" content="<?php echo DESCRIPTION; ?>">
   <?php endif; ?>
   <meta property="og:type" content="website">
+  <meta property="og:image" content="<?php echo htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8'); ?>">
 
   <!-- Google tag (gtag.js) – Google Analytics 4 -->
-  <!-- IMPORTANT: înlocuiește G-XXXXXXX cu Measurement ID-ul tău real -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TGZ9QMV8RZ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -144,13 +158,13 @@ if ($is_programare_online) {
     }
     .btn-home:hover{background:#111;color:#fff}
 
-    /* === Stil pentru butonul Programare online / Întoarcere (ca în header.php) === */
+    /* Stil pentru butonul Programare online / Întoarcere (ca în header normal) */
     .btn-programare{
       background:transparent;
-      border:1px solid #b91c1c;      /* roșu normal */
+      border:1px solid #b91c1c;
       border-radius:20px;
       padding:6px 14px;
-      font-size:13px;                /* mai mic, să încapă pe un rând */
+      font-size:13px;
       font-weight:600;
       line-height:1.2;
       color:#b91c1c;
@@ -158,8 +172,8 @@ if ($is_programare_online) {
       transition:color .2s, border-color .2s, background .2s;
     }
     .btn-programare:hover{
-      background:transparent;        /* fără fundal plin */
-      color:#22c55e;                 /* verde la hover */
+      background:transparent;
+      color:#22c55e;
       border-color:#22c55e;
     }
 
@@ -493,6 +507,3 @@ if ($is_programare_online) {
   });
 })();
 </script>
-
-</body>
-</html>
